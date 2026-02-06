@@ -1,21 +1,21 @@
-# 🗂️ File Organizer Script
+# File Organizer Script
 
 A lightweight Python automation tool that organizes cluttered directories by categorizing files into structured folders based on their types (e.g., images, documents, audio).  
 This project was developed to enhance productivity by automating tedious manual sorting and keeping directories clean and organized.
 
 ---
 
-## ✨ Features
+## Features
 
-- 📁 **Automatic File Categorization** – Sorts files into predefined folders like `Images` and `Documents` using regular expressions.  
-- 🧭 **Modular Architecture** – Clean separation of responsibilities through dedicated modules for sorting, configuration, logging, and error handling.  
-- 🧰 **Dynamic File Types** – Add or modify file categories in `config.py` without changing the core logic.  
-- 🪝 **Robust Error Handling** – Validates paths and permissions and provides clear error feedback.  
-- 📝 **Detailed Logging** – Logs all operations to both the console and a `.log` file for easier debugging and auditing.
+- **Automatic File Categorization** – Sorts files into predefined folders like `Images` and `Documents` using regular expressions.  
+- **Modular Architecture** – Clean separation of responsibilities through dedicated modules for sorting, configuration, logging, and error handling.  
+- **Dynamic File Types** – Add or modify file categories in `config.py` without changing the core logic.  
+- **Robust Error Handling** – Validates paths and permissions and provides clear error feedback.  
+- **Detailed Logging** – Logs all operations to both the console and a `.log` file for easier debugging and auditing.
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **Language:** Python 3  
 - **Libraries:** `os`, `shutil`, `re`, `logging`  
@@ -23,7 +23,7 @@ This project was developed to enhance productivity by automating tedious manual 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 file-organizer/
@@ -48,7 +48,7 @@ file-organizer/
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 1. **Run `main.py`** and provide the path to the directory you want to organize.  
 2. The script validates the directory using `error_handler.py`.  
@@ -66,7 +66,7 @@ FILE_CATEGORIES = {
 
 ---
 
-## 🧪 Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -84,7 +84,7 @@ source venv/bin/activate  # On Windows use venv\Scripts\activate
 
 ---
 
-## ▶️ Usage
+## Usage
 
 ```bash
 # Run the script
@@ -95,7 +95,7 @@ After running, your files will be sorted into categorized folders automatically.
 
 ---
 
-## 🧭 Logging
+## Logging
 
 All operations are:
 - Displayed on the **console** in real time  
@@ -103,17 +103,11 @@ All operations are:
 
 ---
 
-## 🛠️ Future Improvements
+## Future Improvements
 
-- 📂 Recursive support for nested directories  
-- 🖼️ Graphical User Interface (GUI) for non-CLI users  
+- Recursive support for nested directories  
+- Graphical User Interface (GUI) for non-CLI users  
 - ⚙️ Dynamic configuration through external files or CLI
-
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
